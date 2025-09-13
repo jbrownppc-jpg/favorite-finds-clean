@@ -14,15 +14,21 @@ body {
 }
 
 /* Header */
-header {
-  background-color: #1c1c1c; /* Darker gray */
-  padding: 40px 20px;        /* Taller header */
-  font-size: 2.6em;          /* Bigger text */
-  font-weight: bold;
-  text-align: center;
-  color: #F0EAD6;
-  text-shadow: 0 0 8px #00bfff;
+header h1 {
+  font-size: 1.2em; /* much smaller than 2.6em */
+  color: #e6e6e6;
+  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
 }
+
+header p {
+  font-size: 0.75em;
+  color: #ff9900;
+}
+
+.product-box {
+  height: 360px; /* reduce from 420px */
+}
+
 
 /* Search Bar */
 .search-bar {
@@ -137,4 +143,5 @@ footer {
   padding: 20px;
   margin-top: 40px;
   font-size: 0.9em;
+
 }
