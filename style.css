@@ -16,16 +16,27 @@ body {
 /* Header */
 .container {
   display: grid;
-  grid-template-columns: repeat(5, 1fr);
-  gap: 40px;
+  grid-template-columns: repeat(5, 1fr); /* 5 boxes per row */
+  gap: 40px; /* spacing between boxes */
   padding: 20px;
   max-width: 1400px;
   margin: 0 auto; /* centers the grid */
 }
 
 .product-box {
-  height: 360px; /* reduce from 420px */
+  background-color: #0a1a2f;
+  padding: 26px;
+  border-radius: 8px;
+  text-align: center;
+  box-shadow: 0 0 10px #000;
+  transition: transform 0.3s ease, box-shadow 0.3s ease;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  height: 360px; /* reduced from 420px */
+  overflow: hidden;
 }
+
 
 /* Search Bar */
 .search-bar {
@@ -142,5 +153,6 @@ footer {
   font-size: 0.9em;
 
 }
+
 
 
