@@ -15,14 +15,13 @@ body {
 
 /* Header */
 header h1 {
-  font-size: 1.2em; /* much smaller than 2.6em */
-  color: #e6e6e6;
-  text-shadow: 0 2px 4px rgba(0,0,0,0.5);
+  font-size: 1.3em !important;
+  text-align: center;
 }
 
 header p {
-  font-size: 0.75em;
-  color: #ff9900;
+  font-size: 0.75em !important;
+  text-align: center;
 }
 
 .product-box {
@@ -145,3 +144,4 @@ footer {
   font-size: 0.9em;
 
 }
+
