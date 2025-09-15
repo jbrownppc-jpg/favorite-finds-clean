@@ -109,12 +109,13 @@ header p {
 
 /* Product Text */
 .product-box p {
-  font-size: 0.8em;
-  color: #00cc66;              /* Brighter green */
+  font-size: 0.7em;
+  color: #f0ead6;              /* eggshell color */
   line-height: 1.3;
   margin: 0;
   padding: 0 5px;
   text-decoration: none;       /* Removes underline */
+  color: inherit;
 }
 
 /* Badge */
@@ -138,6 +139,7 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
 }
+
 
 
 
