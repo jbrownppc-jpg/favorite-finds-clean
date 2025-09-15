@@ -109,13 +109,22 @@ header p {
 
 /* Product Text */
 .product-box p {
-  font-size: 0.7em;
-  color: #ffffff;              /* white color */
+  font-size: 0.9em;
+  color: #f0ead6; /* Eggshell tone */
   line-height: 1.3;
   margin: 0;
   padding: 0 5px;
-  text-decoration-color: #0a1a2f;
-  color: inherit;
+}
+
+/* Link Styling Inside Product Boxes */
+.product-box a {
+  text-decoration: none;
+  color: #f0ead6;
+}
+
+.product-box a:visited,
+.product-box a:hover {
+  color: #f0ead6;
 }
 
 /* Badge */
@@ -139,6 +148,7 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
 }
+
 
 
 
