@@ -86,7 +86,7 @@ header p {
   display: flex;
   flex-direction: column;
   justify-content: space-between;
-  height: 360px;
+  height: 320px;               /* Reduced from 360px */
   overflow: hidden;
   color: inherit;
   text-decoration: none;
@@ -109,11 +109,12 @@ header p {
 
 /* Product Text */
 .product-box p {
-  font-size: 0.9em;              /* Matches badge size */
-  color: #3CB371;                /* Same green as badge */
+  font-size: 0.9em;
+  color: #00cc66;              /* Brighter green */
   line-height: 1.3;
   margin: 0;
   padding: 0 5px;
+  text-decoration: none;       /* Removes underline */
 }
 
 /* Badge */
@@ -137,6 +138,7 @@ footer {
   margin-top: 40px;
   font-size: 0.9em;
 }
+
 
 
 
